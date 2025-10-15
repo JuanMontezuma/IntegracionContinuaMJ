@@ -24,7 +24,7 @@ describe("ColorPicker Component", () => {
     });
   });
 
-  test("muestra el color inicial Blanco", () => {
+  test("muestra el color inicial blanco", () => {
     render(<ColorPicker />);
     
     const colorInput = screen.getByTestId("color-input") as HTMLInputElement;
