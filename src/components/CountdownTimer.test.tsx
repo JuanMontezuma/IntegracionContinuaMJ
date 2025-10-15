@@ -12,7 +12,7 @@ describe("CountdownTimer Component", () => {
     jest.useRealTimers();
   });
 
-  test("muestra el tiempo inicial correctamente", () => {
+  test("muestra el tiempo inicial correctamenteee", () => {
     render(<CountdownTimer />);
     
     const input = screen.getByTestId("seconds-input") as HTMLInputElement;
